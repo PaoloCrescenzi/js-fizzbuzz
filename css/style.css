@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 8);
+    aspect-ratio: 1 / 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 137, 178);
+}
+
+.bg-green {
+    background-color: rgb(10, 214, 161);
+}
+
+.bg-red {
+    background-color: rgb(240, 71, 111);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 209, 102);
+}
+
+body{
+    background-color: rgb(8, 59, 76);
+}
